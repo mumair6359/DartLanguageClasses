@@ -43,12 +43,14 @@ void main() {
   studentsName.remove(3); // to remove a single value use .remove(value)
   print("After remove the values : ${studentsName}");
 
-  studentsName.removeAt(
-    0,
-  ); // to remove a specific single value use .removeAt(index)
+  studentsName.removeAt(0);
+  // to remove a specific single value use .removeAt(index)
   print("After remove specific single values using index : ${studentsName}");
+
+  studentsName.removeLast();
+  // to remove the last value of the list
+  print("Remove the last value  : ${studentsName}");
 
   List studentsName2 = studentsName.reversed.toList();
   print("After reversed the list : ${studentsName2}");
-
 }
