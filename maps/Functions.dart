@@ -43,11 +43,12 @@ void main() {
   // Map myData = bioData();
   // print("${myData.values}");
 
-  addNumbers() {
-    var theSum = 2 + 2;
-    return theSum;
-  }
+  //   addNumbers() {
+  //     var theSum = 2 + 2;
+  //     return theSum;
+  //   }
 
-  int result = addNumbers();
-  print(result);
+  //   int result = addNumbers();
+  //   print(result);
+  // }
 }
